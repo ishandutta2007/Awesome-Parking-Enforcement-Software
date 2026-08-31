@@ -1,1283 +1,278 @@
 # Awesome-Parking-Enforcement-Software
 
-## Top Natural Catastrophe Modeling Platform Ecosystem
-
-
+## Top Parking Enforcement Software Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
+*Focused on Parking Enforcement, Citation Management, Permit Validation, License Plate Recognition (LPR/ANPR), Curb Management & Parking Compliance*
+**Last updated: September 2026**
 
-*Focused on Natural Hazard Modeling, Catastrophe Risk, Climate Risk, Exposure Analysis, Vulnerability Modeling, Probabilistic Loss Estimation & Disaster Risk Analytics*
+This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Parking Enforcement Software**. These systems help municipalities, universities, airports, hospitals, commercial parking operators, and private property managers enforce parking rules, validate permits and payments, issue citations, capture photographic evidence, manage appeals, track collections, and automate license-plate-based enforcement.
 
-**Last updated: August 2026**
+**Examples** include Flowbird, CivicSmart, T2 Systems, Passport Parking, ParkMobile, Flash Parking, IPS Group, Metric Parking, Parkeon, and Cale (the category leaders).
 
+**Open-source emphasis**: This section is heavily expanded with open-source parking management systems, ANPR/LPR engines, computer-vision frameworks, OCR systems, GIS platforms, workflow engines, case-management tools, mobile application frameworks, and analytics platforms that can be combined to build self-hosted parking enforcement and citation-management systems. Fully integrated open-source equivalents to enterprise parking-enforcement suites remain relatively limited, so the strongest open architectures typically combine multiple specialized projects.
 
-
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Natural Catastrophe Modeling (NatCat Modeling)**. These tools help insurers, reinsurers, banks, governments, infrastructure operators, asset managers and researchers understand the potential impact of earthquakes, hurricanes, floods, wildfires, severe convective storms, droughts, heatwaves, tsunamis and other natural hazards.
-
-
-
-Typical catastrophe modeling capabilities include **hazard modeling, stochastic event generation, exposure management, geospatial analysis, vulnerability functions, damage estimation, probabilistic loss calculation, insured loss estimation, reinsurance analysis, climate scenario analysis, portfolio aggregation, stress testing and risk visualization**.
-
-
-
-**Examples** include Moody's RMS, Verisk AIR Worldwide, KCC, Impact Forecasting, Cervest, JBA Risk Management, Fathom, KatRisk and One Concern.
-
-
-
-**Open-source emphasis**: This section is heavily expanded with major open-source catastrophe modeling engines, climate-risk frameworks, hazard models, exposure-data standards, geospatial systems, flood and earthquake tools, climate-data libraries and analytics platforms. The open-source NatCat ecosystem is particularly strong for scientific hazard analysis, climate risk and custom catastrophe models. The **Oasis Loss Modelling Framework** is one of the most important open-source foundations for insurance and reinsurance catastrophe loss modeling, while **CLIMADA** provides a major open framework for climate risk and impact assessment.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites or GitHub repositories.
-
-
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
 
-
-
-* [SaaS/Hosted Platforms](#saashosted-platforms)
-
+* [SaaS/Hosted Platforms](#saas-hosted-platforms)
 * [Open-Source GitHub Projects](#open-source-github-projects)
-
 * [Additional Strong Open-Source Options](#additional-strong-open-source-options)
-
-* [Frameworks for Building Custom Catastrophe Modeling Systems](#frameworks-for-building-custom-catastrophe-modeling-systems)
-
 * [How to Contribute](#how-to-contribute)
-
 * [Disclaimer](#disclaimer)
-
-
 
 ## SaaS/Hosted Platforms
 
+* **[Flowbird](https://www.flowbird.group/)**
+  Smart parking and mobility platform providing parking payments, meters, digital services, curb-management technologies, and enforcement-related integrations for cities and parking operators.
 
+* **[CivicSmart](https://civicsmart.com/)**
+  Connected curb-management and smart-parking platform combining meters, sensors, plate capture, mobile enforcement, citation workflows, and operational intelligence for municipalities. ([CivicSmart][1])
 
-* **[Moody's RMS](https://www.rms.com/)**
+* **[T2 Systems](https://www.t2systems.com/)**
+  Enterprise parking-management platform supporting mobile enforcement, LPR, permit validation, citation issuance, evidence capture, payments, appeals, collections, and analytics. ([T2 Systems][2])
 
-  Major global catastrophe risk modeling provider offering probabilistic models, exposure analytics and risk intelligence for insurers, reinsurers, financial institutions and governments.
+* **[Passport Parking](https://www.passportinc.com/)**
+  Digital parking and mobility platform providing parking payments, permits, enforcement technology, citation workflows, and integrations with parking meters and LPR systems. ([Passport][3])
 
+* **[ParkMobile](https://parkmobile.io/)**
+  Digital parking platform providing mobile payments and integrations with parking operators, meters, enforcement systems, and mobility technology providers. ([ParkMobile][4])
 
+* **[Flash Parking](https://www.flashparking.com/)**
+  Parking technology platform providing cloud-based parking access, revenue control, digital payments, license-plate recognition, and parking-operator management tools.
 
-* **[Verisk Extreme Event Solutions / AIR Worldwide](https://www.verisk.com/insurance/brands/air/)**
+* **[IPS Group](https://www.ipsgroupinc.com/)**
+  Smart parking technology provider offering connected parking meters, mobile payment infrastructure, sensors, enforcement integrations, and curbside management technologies.
 
-  Global catastrophe modeling platform providing hazard, vulnerability and financial-loss modeling for insurers, reinsurers and other risk-bearing organizations.
+* **[Metric Parking](https://www.metricgroup.co.uk/)**
+  Parking technology provider delivering parking enforcement, permit management, payment, ANPR, mobile applications, and smart-city parking infrastructure.
 
+* **[Parkeon / Flowbird Technologies](https://www.flowbird.group/)**
+  Parking technology ecosystem providing parking meters, payment terminals, digital parking services, curb-management systems, and enforcement integrations.
 
+* **[Cale](https://www.cale.se/)**
+  Parking and mobility technology provider offering parking payment, permit, enforcement, mobile, and smart-parking infrastructure solutions.
 
-* **[Karen Clark & Company (KCC)](https://www.karenclarkandco.com/)**
+* **[OperationsCommander](https://operationscommander.com/)**
+  Parking and security operations platform connecting permits, violations, LPR, citation issuance, payments, evidence, incidents, and operational workflows through a shared system of record. ([OperationsCommander][5])
 
-  Catastrophe risk modeling and analytics provider specializing in property catastrophe models, reference loss estimates and insurance industry risk analysis.
+* **[Argus Command Center](https://knogin.com/en/developers/parking-citation-management)**
+  Parking citation-management platform supporting mobile citation issuance, license-plate recognition, photographic evidence, appeals processing, payments, collections, permits, officer deployment, and analytics. ([Knogin][6])
 
+* **[Genetec AutoVu](https://www.genetec.com/)**
+  Enterprise automatic license-plate recognition platform used for parking enforcement, vehicle identification, permit validation, parking compliance, and security operations.
 
-
-* **[Impact Forecasting](https://www.aon.com/impactforecasting/)**
-
-  Catastrophe model and risk analytics business providing probabilistic and event-based models for insurers, reinsurers and risk-management organizations.
-
-
-
-* **[Cervest](https://www.cervest.earth/)**
-
-  Climate intelligence platform focused on understanding climate-related physical risks and potential impacts on assets, organizations and supply chains.
-
-
-
-* **[JBA Risk Management](https://www.jbarisk.com/)**
-
-  Specialist catastrophe and flood risk analytics provider offering flood models, climate risk data and geospatial risk intelligence.
-
-
-
-* **[Fathom](https://www.fathom.global/)**
-
-  Flood risk and catastrophe analytics provider offering global flood hazard, exposure and risk intelligence for insurance and financial applications.
-
-
-
-* **[KatRisk](https://www.katrisk.com/)**
-
-  Catastrophe risk analytics provider focused on flood, wind, earthquake and other hazard models for insurers and risk professionals.
-
-
-
-* **[One Concern](https://www.oneconcern.com/)**
-
-  Climate resilience and disaster-risk analytics platform focused on quantifying the physical and financial impacts of natural hazards.
-
-
-
-* **[CoreLogic Hazard Risk Solutions](https://www.corelogic.com/)**
-
-  Property and hazard intelligence provider offering data and risk analytics related to natural hazards and property exposure.
-
-
-
-* **[Swiss Re CatNet](https://www.swissre.com/)**
-
-  Natural catastrophe intelligence and hazard information platform supporting property risk assessment and global hazard analysis.
-
-
-
-* **[Munich Re NatCatSERVICE](https://www.munichre.com/)**
-
-  Natural catastrophe information and loss-event intelligence supporting catastrophe research and risk understanding.
-
-
-
-* **[S&P Global Climate Risk](https://www.spglobal.com/)**
-
-  Climate and physical-risk analytics supporting financial institutions and organizations evaluating environmental and climate-related risk.
-
-
-
-* **[Jupiter Intelligence](https://jupiterintel.com/)**
-
-  Climate risk analytics platform providing forward-looking physical climate risk information for organizations and infrastructure.
-
-
-
-* **[Climate X](https://www.climate-x.com/)**
-
-  Climate financial-risk analytics platform focused on asset-level physical climate risk and scenario analysis.
-
-
-
-* **[Cervest EarthScan](https://www.cervest.earth/)**
-
-  Climate intelligence capabilities for assessing physical climate risk across assets, locations and portfolios.
-
-
-
-* **[Risk Management Solutions Intelligent Risk Platform](https://www.rms.com/)**
-
-  Enterprise catastrophe modeling and risk-management infrastructure for large insurance and reinsurance portfolios.
-
-
+* **[Parkeon Enforcement Ecosystem](https://www.flowbird.group/)**
+  Parking hardware and software technologies supporting the integration of meters, payment systems, enforcement operations, and municipal parking infrastructure.
 
 ## Open-Source GitHub Projects
 
+* **[Open Park Project](https://github.com/open-park-project)**
+  One of the closest open-source foundations for parking enforcement workflows. Supports parking-space management, parking tickets, fines, controller interfaces, vehicle registration, parking-zone administration, and fine-payment workflows. ([Open Park Project][7])
 
+* **[Open Park Project Documentation](https://openparkproject.github.io/OPP-wiki/)**
+  Open-source parking-management architecture designed around drivers, parking controllers, and administrators, with functionality for parking tickets, parking zones, fine issuance, validation, and payments. ([Open Park Project][7])
 
-### Core Catastrophe Loss Modeling Platforms
+* **[eParking Management System](https://github.com/harytran0407/parking-management-system)**
+  Full-stack open-source smart-parking system featuring ANPR, real-time parking status, gate control, incident management, dynamic pricing, booking, payment workflows, role-based access control, and audit logging. ([GitHub][8])
 
+* **[Parking Management System Using Computer Vision](https://github.com/jangirsamarth/parking-management-system-using-CV)**
+  Open-source parking system combining computer vision, ANPR, entry and exit tracking, automated billing, MySQL storage, and a Streamlit dashboard. ([GitHub][9])
 
+* **[ParkX – Next-Generation Smart Parking](https://github.com/ak-junior3339/ParkX-Next-Generation-Smart-Parking-v2)**
+  Open-source ANPR parking system using YOLO and OCR for automated vehicle check-in and check-out, parking-session tracking, vehicle history, and administrative dashboards. ([GitHub][10])
 
-* **[Oasis Loss Modelling Framework (Oasis LMF)](https://github.com/OasisLMF/OasisLMF)**
+* **[ParkEasy](https://github.com/khushi-14/ParkEasy)**
+  Open-source automated parking system based on ANPR and OCR, providing automated entry and exit logging, parking-duration tracking, dynamic pricing, payment workflows, and role-based administration. ([GitHub][11])
 
-  One of the most important open-source catastrophe modeling frameworks. It supports development, testing and execution of catastrophe models and can calculate ground-up, insured and reinsurance losses.
+* **[ANPR-ATCC](https://github.com/KomatiBhavaniSankar/ANPR-ATCC-Infosys)**
+  Open-source automatic number-plate recognition and traffic-classification system using modern object detection and OCR, including whitelist and blacklist capabilities useful for enforcement workflows. ([GitHub][12])
 
+* **[OpenALPR](https://github.com/openalpr/openalpr)**
+  Well-known open-source automatic license-plate recognition engine for processing images and video streams. Useful as a foundational component for parking enforcement and vehicle-identification systems.
 
+* **[OpenCV](https://github.com/opencv/opencv)**
+  Major open-source computer-vision framework used for vehicle detection, camera processing, parking-space monitoring, evidence capture, image analysis, and ANPR pipelines.
 
-* **[Oasis Platform](https://github.com/OasisLMF/OasisPlatform)**
+* **[Ultralytics YOLO](https://github.com/ultralytics/ultralytics)**
+  Open-source computer-vision framework supporting object detection and tracking, frequently used for vehicles, license plates, parking occupancy, and camera-based enforcement systems.
 
-  Open-source catastrophe loss modeling platform providing infrastructure for deploying and operating catastrophe models through APIs and web-based workflows.
+* **[EasyOCR](https://github.com/JaidedAI/EasyOCR)**
+  Open-source OCR framework suitable for extracting license-plate text and other textual evidence from parking-enforcement images.
 
+* **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)**
+  Open-source OCR framework supporting high-performance text recognition and custom computer-vision workflows, including ANPR and evidence processing.
 
+* **[Tesseract OCR](https://github.com/tesseract-ocr/tesseract)**
+  Mature open-source optical-character-recognition engine useful for license-plate reading, citation document processing, and scanned evidence extraction.
 
-* **[Oasis ktools](https://github.com/OasisLMF/ktools)**
+* **[TrOCR](https://github.com/microsoft/unilm/tree/master/trocr)**
+  Open-source transformer-based OCR research and implementation suitable for advanced document and image text-recognition workflows.
 
-  High-performance open-source catastrophe model calculation engine used for Monte Carlo loss generation, insurance financial calculations and catastrophe loss analysis.
+* **[MMDetection](https://github.com/open-mmlab/mmdetection)**
+  Open-source object-detection framework useful for developing custom vehicle, license-plate, parking-sign, and parking-space detection models.
 
+* **[OpenMMLab MMTracking](https://github.com/open-mmlab/mmtracking)**
+  Open-source multi-object tracking framework useful for tracking vehicles across camera feeds and supporting automated parking-enforcement analysis.
 
+* **[ByteTrack](https://github.com/ifzhang/ByteTrack)**
+  Open-source multi-object tracking system useful for vehicle tracking across video streams and parking surveillance environments.
 
-* **[Oasis Models](https://github.com/OasisLMF/OasisModels)**
+* **[Deep SORT](https://github.com/nwojke/deep_sort)**
+  Open-source object-tracking framework that can help maintain vehicle identities across camera frames for ANPR and parking-monitoring pipelines.
 
-  Collection of example catastrophe models and model-development demonstrations for the Oasis ecosystem, including windstorm and earthquake examples.
+* **[CVAT](https://github.com/cvat-ai/cvat)**
+  Open-source computer-vision annotation platform useful for labeling vehicles, license plates, parking spaces, road markings, and enforcement-related imagery for custom AI models.
 
+* **[Label Studio](https://github.com/HumanSignal/label-studio)**
+  Open-source data-labeling platform that can be used to prepare training datasets for vehicle detection, license-plate recognition, parking violations, and curbside monitoring.
 
+* **[Supervisely Community Tools](https://github.com/supervisely)**
+  Open-source computer-vision tools and components useful for dataset management and model development in smart-parking and vehicle-recognition applications.
 
-* **[Oasis Open Data Standards](https://github.com/OasisLMF/ODS_Tools)**
-
-  Open-source tools supporting standardized catastrophe modeling data, including exposure and related data structures for model interoperability.
-
-
-
-* **[Open Exposure Data](https://github.com/OasisLMF/ODS_OpenExposureData)**
-
-  Open data standards supporting standardized exposure representation and catastrophe-model interoperability within the Oasis ecosystem.
-
-
-
-### Climate Risk and Impact Modeling
-
-
-
-* **[CLIMADA](https://github.com/CLIMADA-project/climada_python)**
-
-  Major open-source climate risk assessment framework for probabilistic impact calculations, hazard analysis, vulnerability modeling and adaptation assessment.
-
-
-
-* **[CLIMADA Petals](https://github.com/CLIMADA-project/climada_petals)**
-
-  Extension ecosystem for CLIMADA providing specialized hazard-generation and climate-risk components, including modules for hazards and exposure data.
-
-
-
-* **[PhysRisk](https://github.com/os-climate/physrisk)**
-
-  Open-source physical climate risk calculation engine designed for bottom-up analysis of climate hazards, asset vulnerability and financial or socioeconomic impacts.
-
-
-
-* **[OS-Climate](https://github.com/os-climate)**
-
-  Open-source climate-data and analytics ecosystem supporting financial climate-risk assessment, physical risk analysis and climate scenario workflows.
-
-
-
-* **[OS-Climate PhysRisk API](https://github.com/os-climate/physrisk)**
-
-  Open-source architecture for exposing physical climate risk calculations through programmatic and hosted interfaces.
-
-
-
-### Earthquake and Seismic Risk Modeling
-
-
-
-* **[OpenQuake Engine](https://github.com/gem/oq-engine)**
-
-  Major open-source seismic hazard and seismic risk modeling engine developed by the Global Earthquake Model Foundation, supporting probabilistic seismic hazard and loss analysis.
-
-
-
-* **[OpenQuake Model Building Toolkit](https://github.com/GEMScienceTools/oq-mbtk)**
-
-  Open-source toolkit supporting development and processing of seismic hazard and earthquake-risk models.
-
-
-
-* **[OpenQuake Input Tools](https://github.com/GEMScienceTools/oq-inputs)**
-
-  Open-source utilities and workflows supporting preparation of data and inputs for earthquake hazard and risk modeling.
-
-
-
-* **[GEM Vulnerability Toolkit](https://github.com/gem)**
-
-  Open scientific tools and data resources from the Global Earthquake Model ecosystem for seismic hazard, vulnerability and risk analysis.
-
-
-
-* **[PyPSHA](https://github.com/usgs/psha)**
-
-  Open-source and research-oriented probabilistic seismic hazard analysis components and workflows.
-
-
-
-* **[ShakeMap](https://github.com/usgs/shakemap)**
-
-  Open-source system for producing maps of ground shaking after earthquakes, supporting rapid event impact and exposure analysis.
-
-
-
-* **[OpenSHA](https://github.com/opensha/opensha)**
-
-  Open-source seismic hazard analysis framework supporting earthquake rupture forecasting, ground-motion modeling and probabilistic seismic hazard calculations.
-
-
-
-### Flood Risk and Hydrological Modeling
-
-
-
-* **[RiskScape](https://github.com/NIWA/RiskScape)**
-
-  Open-source natural hazard impact and loss modeling platform designed for combining hazard, exposure and vulnerability information to estimate consequences.
-
-
-
-* **[InaSAFE](https://github.com/inasafe/inasafe)**
-
-  Open-source disaster-impact modeling tool that combines hazard and exposure information to estimate potential impacts.
-
-
-
-* **[Delft-FIAT](https://github.com/Deltares/Delft-FIAT)**
-
-  Open-source flood impact assessment tool supporting estimation of damages and consequences from flood scenarios.
-
-
-
-* **[Delft3D](https://github.com/Deltares/Delft3D)**
-
-  Major open-source hydrodynamic modeling suite useful for coastal, riverine and flood-hazard simulation.
-
-
-
-* **[SFINCS](https://github.com/Deltares/SFINCS)**
-
-  Open-source hydrodynamic model designed for efficient simulation of compound flooding and coastal inundation.
-
-
-
-* **[LISFLOOD-FP](https://github.com/University-of-Bristol/LISFLOOD-FP)**
-
-  Open-source hydraulic flood-modeling software supporting large-scale flood inundation simulations.
-
-
-
-* **[HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/)**
-
-  Widely used hydraulic modeling software supporting river hydraulics and flood inundation analysis.
-
-
-
-* **[PCRaster](https://github.com/pcraster/pcraster)**
-
-  Open-source environmental modeling framework supporting spatial and hydrological modeling.
-
-
-
-* **[wflow](https://github.com/Deltares/Wflow.jl)**
-
-  Open-source hydrological modeling framework for catchment-scale water and flood simulations.
-
-
-
-* **[RAPID](https://github.com/c-h-david/rapid)**
-
-  Open-source river-routing model useful for large-scale hydrological and flood-risk workflows.
-
-
-
-### Wildfire and Fire Risk Modeling
-
-
-
-* **[pyrosmoke](https://github.com/openclimatedata/pyrosmoke)**
-
-  Open-source tools and workflows supporting wildfire and smoke analysis.
-
-
-
-* **[Fire Weather Index Tools](https://github.com/cffdrs)**
-
-  Open-source implementations and tools related to wildfire weather danger and fire-risk assessment.
-
-
-
-* **[pyFire](https://github.com/pyfire)**
-
-  Community open-source tools and frameworks for wildfire modeling and geospatial fire analysis.
-
-
-
-* **[Google Earth Engine Fire Tools](https://github.com/google/earthengine-api)**
-
-  Open geospatial workflows that can support wildfire detection, burn-area analysis and hazard monitoring.
-
-
-
-### Tropical Cyclone and Windstorm Modeling
-
-
-
-* **[CLIMADA Tropical Cyclone Modules](https://github.com/CLIMADA-project/climada_python)**
-
-  Open-source components supporting tropical cyclone hazard, exposure and impact analysis within the CLIMADA framework.
-
-
-
-* **[HURDAT2 Tools](https://github.com/topics/hurricane)**
-
-  Community open-source libraries and projects for processing historical tropical cyclone tracks and hurricane data.
-
-
-
-* **[TCRM](https://github.com/GeoscienceAustralia/tcrm)**
-
-  Open-source Tropical Cyclone Risk Model supporting stochastic tropical cyclone hazard generation and wind-risk analysis.
-
-
-
-* **[STORM](https://github.com/philippemontfort/STORM)**
-
-  Open-source and research-oriented stochastic tropical cyclone modeling approaches for generating synthetic event sets.
-
-
-
-* **[CLIMADA Hazard Generation Tools](https://github.com/CLIMADA-project/climada_petals)**
-
-  Open-source modules supporting generation and processing of specialized climate and natural-hazard data.
-
-
-
-### Climate Data and Extreme Weather Analysis
-
-
-
-* **[xarray](https://github.com/pydata/xarray)**
-
-  Open-source Python library for multidimensional climate, weather and geospatial data analysis.
-
-
-
-* **[xclim](https://github.com/Ouranosinc/xclim)**
-
-  Open-source climate-indicator and climate-extremes library for analyzing climate scenarios and weather extremes.
-
-
-
-* **[xESMF](https://github.com/pangeo-data/xESMF)**
-
-  Open-source regridding library widely useful for climate and geospatial model data.
-
-
-
-* **[Iris](https://github.com/SciTools/iris)**
-
-  Open-source scientific library for analyzing meteorological and climate datasets.
-
-
-
-* **[CDO](https://github.com/Climate-Data-Operators/CDO)**
-
-  Major open-source Climate Data Operators toolkit for processing climate model and observational datasets.
-
-
-
-* **[ESMF](https://github.com/esmf-org/esmf)**
-
-  Open-source Earth System Modeling Framework supporting scientific model coupling and geospatial data processing.
-
-
-
-* **[Pangeo](https://github.com/pangeo-data/pangeo)**
-
-  Open-source ecosystem for scalable analysis of climate, weather and Earth-observation data.
-
-
-
-### Geospatial Exposure and Risk Analysis
-
-
+* **[OpenStreetMap](https://github.com/openstreetmap)**
+  Open geographic-data ecosystem useful for mapping parking zones, curb regulations, enforcement areas, officer routes, and citation locations.
 
 * **[QGIS](https://github.com/qgis/QGIS)**
-
-  Major open-source geographic information system for hazard visualization, exposure mapping and spatial catastrophe-risk analysis.
-
-
-
-* **[GeoServer](https://github.com/geoserver/geoserver)**
-
-  Open-source server for publishing geospatial data and risk maps through standard web services.
-
-
+  Powerful open-source GIS platform suitable for mapping parking zones, citation hotspots, officer patrol routes, curb regulations, and spatial enforcement analytics.
 
 * **[PostGIS](https://github.com/postgis/postgis)**
+  Open-source spatial database extension for PostgreSQL, useful for storing parking zones, citation locations, GPS evidence, patrol routes, and geospatial regulations.
 
-  Open-source geospatial database extension for PostgreSQL, widely used for exposure, hazard and spatial-risk calculations.
+* **[OpenLayers](https://github.com/openlayers/openlayers)**
+  Open-source web-mapping framework useful for enforcement dashboards showing parking zones, violations, officer locations, and geospatial evidence.
 
+* **[Leaflet](https://github.com/Leaflet/Leaflet)**
+  Lightweight open-source mapping library suitable for mobile and web parking-enforcement applications.
 
+* **[OpenMapTiles](https://github.com/openmaptiles/openmaptiles)**
+  Open-source mapping infrastructure for self-hosted geographic parking and enforcement applications.
 
-* **[GeoPandas](https://github.com/geopandas/geopandas)**
+* **[Open311](https://github.com/open311)**
+  Open civic-service API ecosystem that can be integrated with municipal parking enforcement, citizen complaints, curb violations, and service requests.
 
-  Open-source Python library for geospatial exposure and hazard analysis.
+* **[Open311 GeoReport API](https://github.com/open311/georeport-v2)**
+  Open standard for geographic civic reports that can complement parking enforcement and citizen-reporting workflows.
 
+* **[OpenGTS](https://github.com/openGTS/OpenGTS)**
+  Open-source GPS tracking system useful for monitoring parking-enforcement vehicles, officer routes, mobile LPR units, and operational fleets.
 
+* **[Traccar](https://github.com/traccar/traccar)**
+  Open-source GPS tracking and fleet-management platform that can support enforcement vehicle tracking, patrol monitoring, route analysis, and geofencing.
 
-* **[GDAL](https://github.com/OSGeo/gdal)**
+* **[ERPNext](https://github.com/frappe/erpnext)**
+  Open-source ERP platform that can support citation accounting, payment tracking, receivables, customer records, assets, fleet operations, and custom enforcement workflows.
 
-  Major open-source geospatial data-processing library supporting raster and vector hazard datasets.
+* **[Odoo Community Edition](https://github.com/odoo/odoo)**
+  Open-source ERP ecosystem suitable for building custom permit management, citation billing, payment, customer-service, fleet, and enforcement-administration modules.
 
+* **[Camunda](https://github.com/camunda/camunda-bpm-platform)**
+  Open-source workflow and process-automation platform useful for citation review, appeals, escalation, payment, collections, and administrative approval workflows.
 
+* **[Flowable](https://github.com/flowable/flowable-engine)**
+  Open-source workflow and business-process-management engine suitable for managing citation lifecycles, appeals, officer review, dispute resolution, and collections.
 
-* **[Rasterio](https://github.com/rasterio/rasterio)**
+* **[Temporal](https://github.com/temporalio/temporal)**
+  Open-source workflow orchestration platform useful for implementing reliable long-running enforcement processes such as appeals, payment reminders, escalations, and collections.
 
-  Open-source Python library for geospatial raster processing useful for hazard and climate datasets.
+* **[Node-RED](https://github.com/node-red/node-red)**
+  Open-source flow-based automation platform useful for connecting ANPR cameras, payment systems, parking sensors, databases, printers, notification services, and enforcement dashboards.
 
+* **[Apache Kafka](https://github.com/apache/kafka)**
+  Open-source event-streaming platform suitable for processing high-volume camera, LPR, payment, sensor, citation, and enforcement events.
 
+* **[EMQX](https://github.com/emqx/emqx)**
+  Open-source MQTT platform useful for integrating parking sensors, smart meters, IoT cameras, curbside devices, and enforcement infrastructure.
 
-* **[WhiteboxTools](https://github.com/jblindsay/whitebox-tools)**
+* **[ThingsBoard Community Edition](https://github.com/thingsboard/thingsboard)**
+  Open-source IoT platform suitable for smart-parking sensors, meter telemetry, curbside occupancy monitoring, device management, and operational dashboards.
 
-  Open-source geospatial analysis toolkit supporting terrain, hydrology and environmental analysis.
-
-
-
-### Disaster Risk and Resilience Platforms
-
-
-
-* **[InaSAFE](https://github.com/inasafe/inasafe)**
-
-  Open-source disaster impact analysis software supporting scenario-based analysis of hazards and exposed populations or assets.
-
-
-
-* **[OpenDRI](https://github.com/OpenDRI)**
-
-  Open-source disaster-risk information initiatives and tools supporting disaster resilience and risk reduction.
-
-
-
-* **[RiskScape](https://github.com/NIWA/RiskScape)**
-
-  Open-source framework for estimating consequences from combinations of hazard, exposure and vulnerability.
-
-
-
-* **[OpenDRR](https://github.com/OpenDRR)**
-
-  Open-source disaster risk-reduction tools and components for hazard and risk analysis.
-
-
-
-### Portfolio, Insurance and Financial Risk Foundations
-
-
-
-* **[Oasis LMF](https://github.com/OasisLMF/OasisLMF)**
-
-  Open catastrophe loss modeling infrastructure supporting ground-up, insured and reinsurance loss calculations.
-
-
-
-* **[OpenFisca](https://github.com/openfisca/openfisca-core)**
-
-  Open-source rules-engine infrastructure that can support transparent financial-policy calculations in broader risk and resilience applications.
-
-
-
-* **[Open Source Risk Analytics](https://github.com/OpenSourceRisk)**
-
-  Open-source financial risk analytics ecosystem providing quantitative modeling components that can complement catastrophe-risk and financial-loss analysis.
-
-
-
-* **[QuantLib](https://github.com/lballabio/QuantLib)**
-
-  Major open-source quantitative finance library useful for integrating catastrophe scenarios into broader financial and portfolio risk analysis.
-
-
-
-### Workflow, Data and Automation Infrastructure
-
-
-
-* **[Apache Airflow](https://github.com/apache/airflow)**
-
-  Open-source workflow orchestration platform suitable for large catastrophe-data pipelines and scheduled model execution.
-
-
-
-* **[Prefect](https://github.com/PrefectHQ/prefect)**
-
-  Open-source workflow orchestration platform useful for scientific and catastrophe-modeling pipelines.
-
-
-
-* **[Dagster](https://github.com/dagster-io/dagster)**
-
-  Open-source data orchestration platform suitable for reproducible hazard, exposure and loss-model pipelines.
-
-
-
-* **[Kestra](https://github.com/kestra-io/kestra)**
-
-  Open-source orchestration platform useful for large-scale model execution and data-processing workflows.
-
-
-
-* **[Apache NiFi](https://github.com/apache/nifi)**
-
-  Open-source data-flow platform suitable for integrating hazard feeds, exposure data and catastrophe-model outputs.
-
-
-
-* **[Airbyte](https://github.com/airbytehq/airbyte)**
-
-  Open-source data integration platform for synchronizing exposure, climate, insurance and analytical datasets.
-
-
-
-### Analytics and Visualization
-
-
+* **[ChirpStack](https://github.com/chirpstack/chirpstack)**
+  Open-source LoRaWAN network-server ecosystem useful for low-power parking sensors and city-scale IoT parking deployments.
 
 * **[Apache Superset](https://github.com/apache/superset)**
-
-  Open-source business intelligence platform suitable for catastrophe portfolio analytics and risk dashboards.
-
-
+  Open-source business-intelligence platform useful for citation analytics, violation hotspots, officer productivity, compliance rates, payment performance, and enforcement reporting.
 
 * **[Metabase](https://github.com/metabase/metabase)**
-
-  Open-source analytics platform useful for exposure, loss and catastrophe-risk reporting.
-
-
+  Open-source analytics platform suitable for self-hosted dashboards covering citations, revenue, violations, appeals, enforcement zones, and operational KPIs.
 
 * **[Grafana](https://github.com/grafana/grafana)**
+  Open-source visualization platform useful for real-time monitoring of cameras, ANPR systems, sensors, enforcement activity, and parking infrastructure.
 
-  Open-source visualization platform suitable for operational monitoring and catastrophe-risk dashboards.
+* **[PostgreSQL](https://github.com/postgres/postgres)**
+  Robust open-source relational database suitable as a backend for parking permits, vehicles, citations, evidence, payments, appeals, and enforcement records.
 
+* **[Keycloak](https://github.com/keycloak/keycloak)**
+  Open-source identity and access-management platform supporting secure authentication, single sign-on, role-based access control, and multi-agency enforcement deployments.
 
+* **[Appsmith](https://github.com/appsmithorg/appsmith)**
+  Open-source low-code platform useful for rapidly building internal dashboards for citation review, permit administration, officer management, and parking operations.
 
-* **[Kepler.gl](https://github.com/keplergl/kepler.gl)**
+* **[ToolJet](https://github.com/ToolJet/ToolJet)**
+  Open-source internal-tool builder that can be used to create parking-enforcement administration, citation lookup, permit-management, and operational dashboards.
 
-  Open-source geospatial visualization platform for interactive mapping of exposures, hazards and modeled losses.
-
-
-
-* **[deck.gl](https://github.com/visgl/deck.gl)**
-
-  Open-source framework for high-performance geospatial visualization and large-scale risk maps.
-
-
-
-* **[Redash](https://github.com/getredash/redash)**
-
-  Open-source query and visualization platform for catastrophe and portfolio analytics.
-
-
+* **[Budibase](https://github.com/Budibase/budibase)**
+  Open-source low-code application platform suitable for rapidly developing self-hosted parking and enforcement workflows.
 
 ## Additional Strong Open-Source Options
 
+* **Parking-management foundations**: Open Park Project, custom eParking systems, ANPR parking repositories, and smart-parking research projects provide starting points for self-hosted deployments.
 
+* **License-plate recognition**: OpenALPR, YOLO-based custom models, OpenCV, PaddleOCR, EasyOCR, and Tesseract can be combined to build modern ANPR/LPR pipelines.
 
-* **Catastrophe loss modeling**: Oasis LMF, Oasis Platform, Oasis ktools and Oasis example models.
+* **Vehicle detection and tracking**: Ultralytics YOLO, MMDetection, Deep SORT, ByteTrack, and MMTracking provide the AI and video-processing building blocks for automated enforcement.
 
-* **Climate impact modeling**: CLIMADA, CLIMADA Petals and PhysRisk.
+* **GIS and curb mapping**: OpenStreetMap, QGIS, PostGIS, Leaflet, OpenLayers, and OpenMapTiles can manage parking zones, regulations, officer routes, violation locations, and enforcement hotspots.
 
-* **Earthquake modeling**: OpenQuake, OpenSHA, ShakeMap and GEM scientific tools.
+* **Citation and case workflows**: Camunda, Flowable, Temporal, ERPNext, and Odoo Community can be customized for citation issuance, review, appeals, payment reminders, collections, and administrative processing.
 
-* **Flood risk**: RiskScape, Delft-FIAT, Delft3D, SFINCS, LISFLOOD-FP, PCRaster and wflow.
+* **IoT and smart-parking infrastructure**: ThingsBoard, EMQX, ChirpStack, Node-RED, and Apache Kafka can connect parking sensors, smart meters, cameras, gates, and enforcement systems.
 
-* **Tropical cyclone modeling**: TCRM, CLIMADA hazard modules and community stochastic cyclone projects.
+* **Officer and enforcement fleet tracking**: Traccar, OpenGTS, PostGIS, and mobile GPS APIs can support officer dispatch, patrol monitoring, route optimization, and enforcement-zone coverage.
 
-* **Wildfire analysis**: Open fire-weather tools, Earth-observation workflows and scientific wildfire-modeling libraries.
+* **Evidence management**: OpenCV, object storage systems, PostgreSQL metadata, cryptographic hashing, audit logs, and role-based access control can form a self-hosted evidence-management architecture.
 
-* **Climate data**: xarray, xclim, xESMF, Iris, CDO, ESMF and Pangeo.
+* **Analytics**: Apache Superset, Metabase, Grafana, PostgreSQL, Python, and R can provide citation heatmaps, violation trends, payment rates, appeal outcomes, officer productivity, and curb-usage analytics.
 
-* **Exposure management**: PostGIS, QGIS, GeoPandas, GDAL and Rasterio.
+* **Mobile applications**: React Native, Flutter, Capacitor, and progressive-web-app frameworks can be used to build officer-facing mobile citation and enforcement applications.
 
-* **Geospatial visualization**: Kepler.gl, deck.gl, QGIS and GeoServer.
-
-* **Workflow orchestration**: Apache Airflow, Prefect, Dagster and Kestra.
-
-* **Data integration**: Airbyte, Apache NiFi and custom ETL pipelines.
-
-* **Analytics**: Apache Superset, Metabase, Grafana and Redash.
-
-* Many scientific projects can be combined to support **hazard generation, stochastic event sets, exposure mapping, vulnerability functions, damage estimation, insured losses and climate scenario analysis**.
-
-
-
-## Frameworks for Building Custom Catastrophe Modeling Systems
-
-
-
-A practical open-source Natural Catastrophe Modeling architecture can combine:
-
-
-
-**Catastrophe Loss Engine** → Oasis LMF
-
-**Climate Impact Engine** → CLIMADA
-
-**Physical Climate Risk** → PhysRisk
-
-**Earthquake Risk** → OpenQuake / OpenSHA
-
-**Flood Hazard** → Delft-FIAT / SFINCS / RiskScape
-
-**Hydrology** → PCRaster / wflow
-
-**Exposure Database** → PostgreSQL + PostGIS
-
-**Geospatial Analysis** → QGIS / GeoPandas
-
-**Climate Data Processing** → xarray / xclim / CDO
-
-**Workflow Orchestration** → Airflow / Prefect / Dagster
-
-**Data Integration** → Airbyte / Apache NiFi
-
-**Analytics** → Superset / Metabase
-
-**Risk Maps** → Kepler.gl / deck.gl
-
-**API Layer** → FastAPI / PostgREST / Hasura
-
-
-
-A strong open-source catastrophe-loss stack could be:
-
-
-
-**Oasis LMF + PostGIS + QGIS + Airflow + Apache Superset**
-
-
-
-For climate physical-risk analysis:
-
-
-
-**CLIMADA + PhysRisk + xarray + xclim + PostGIS + Kepler.gl**
-
-
-
-For flood catastrophe analysis:
-
-
-
-**RiskScape + Delft-FIAT + SFINCS + PostGIS + QGIS**
-
-
-
-For earthquake risk:
-
-
-
-**OpenQuake + OpenSHA + PostGIS + GeoPandas + Superset**
-
-
-
-For an integrated multi-peril risk platform:
-
-
-
-**Oasis LMF + CLIMADA + OpenQuake + PhysRisk + PostGIS + Airflow + Metabase**
-
-
-
-## Natural Catastrophe Modeling Workflow
-
-
-
-```mermaid
-
-flowchart TD
-
-    A[Hazard Data] --> B[Hazard Model]
-
-    C[Exposure Data] --> D[Exposure Model]
-
-    E[Vulnerability Data] --> F[Vulnerability Model]
-
-
-
-    B --> G[Event or Scenario]
-
-    D --> H[Assets at Risk]
-
-    F --> I[Damage Functions]
-
-
-
-    G --> J[Hazard Intensity]
-
-    H --> K[Exposure Analysis]
-
-    I --> L[Damage Estimation]
-
-
-
-    J --> M[Impact Calculation]
-
-    K --> M
-
-    L --> M
-
-
-
-    M --> N[Ground-Up Loss]
-
-    N --> O[Insurance Financial Terms]
-
-    O --> P[Insured Loss]
-
-
-
-    P --> Q[Reinsurance Structure]
-
-    Q --> R[Reinsurance Loss]
-
-
-
-    R --> S[Portfolio Aggregation]
-
-    S --> T[Risk Metrics]
-
-```
-
-
-
-## Open-Source Catastrophe Modeling Architecture
-
-
-
-```mermaid
-
-flowchart LR
-
-    A[Hazard Data] --> B[Climate and Hazard Processing]
-
-
-
-    B --> C[CLIMADA]
-
-    B --> D[OpenQuake]
-
-    B --> E[Hydrological Models]
-
-
-
-    F[Exposure Data] --> G[PostGIS]
-
-    G --> H[Exposure Model]
-
-
-
-    C --> I[Impact Functions]
-
-    D --> I
-
-    E --> I
-
-    H --> I
-
-
-
-    I --> J[Oasis LMF]
-
-    J --> K[Ground-Up Loss]
-
-    K --> L[Insured Loss]
-
-    L --> M[Reinsurance Loss]
-
-
-
-    M --> N[Analytics]
-
-    N --> O[Superset / Metabase]
-
-
-
-    G --> P[Geospatial Visualization]
-
-    P --> Q[QGIS / Kepler.gl]
-
-```
-
-
-
-## Catastrophe Modeling Data Model
-
-
-
-A typical Natural Catastrophe Modeling platform may include:
-
-
-
-* Hazard
-
-* Peril
-
-* Hazard Event
-
-* Stochastic Event
-
-* Historical Event
-
-* Climate Scenario
-
-* Event Footprint
-
-* Hazard Intensity
-
-* Return Period
-
-* Exposure Portfolio
-
-* Asset
-
-* Building
-
-* Property
-
-* Infrastructure Asset
-
-* Geographic Location
-
-* Occupancy
-
-* Construction Type
-
-* Building Height
-
-* Year Built
-
-* Asset Value
-
-* Replacement Cost
-
-* Policy
-
-* Insurance Coverage
-
-* Deductible
-
-* Limit
-
-* Vulnerability Function
-
-* Damage Ratio
-
-* Damage State
-
-* Ground-Up Loss
-
-* Insured Loss
-
-* Reinsurance Loss
-
-* Treaty
-
-* Portfolio
-
-* Aggregate Loss
-
-* Average Annual Loss
-
-* Probable Maximum Loss
-
-* Tail Value at Risk
-
-* Scenario Loss
-
-* Climate Projection
-
-* Adaptation Measure
-
-* Risk Score
-
-* Model Version
-
-* Data Source
-
-* Simulation Run
-
-* Audit Record
-
-
-
-## Common Natural Catastrophe Modeling Features
-
-
-
-A complete Natural Catastrophe Modeling platform may support:
-
-
-
-* Multi-peril modeling
-
-* Earthquake modeling
-
-* Tropical cyclone modeling
-
-* Flood modeling
-
-* Wildfire modeling
-
-* Severe convective storm modeling
-
-* Drought analysis
-
-* Heatwave analysis
-
-* Coastal inundation
-
-* Storm surge
-
-* Landslide analysis
-
-* Volcanic risk
-
-* Tsunami modeling
-
-* Hazard maps
-
-* Stochastic event generation
-
-* Historical event analysis
-
-* Probabilistic risk analysis
-
-* Exposure management
-
-* Geocoding
-
-* Vulnerability modeling
-
-* Damage functions
-
-* Ground-up loss
-
-* Insured loss
-
-* Reinsurance loss
-
-* Portfolio aggregation
-
-* Treaty analysis
-
-* Return-period analysis
-
-* PML analysis
-
-* AAL analysis
-
-* Climate scenario analysis
-
-* Stress testing
-
-* Asset-level risk analysis
-
-* Portfolio-level risk analysis
-
-* Geospatial visualization
-
-* API integration
-
-* Model versioning
-
-* Reproducible simulations
-
-* Risk reporting
-
-
-
-## Catastrophe Modeling Lifecycle
-
-
-
-```mermaid
-
-flowchart LR
-
-    A[Collect Data] --> B[Prepare Hazard Data]
-
-    B --> C[Prepare Exposure Data]
-
-
-
-    C --> D[Build Vulnerability Functions]
-
-    D --> E[Generate Events]
-
-
-
-    E --> F[Calculate Hazard Intensity]
-
-    F --> G[Estimate Damage]
-
-
-
-    G --> H[Calculate Ground-Up Loss]
-
-    H --> I[Apply Insurance Terms]
-
-
-
-    I --> J[Calculate Insured Loss]
-
-    J --> K[Apply Reinsurance]
-
-
-
-    K --> L[Aggregate Portfolio Risk]
-
-    L --> M[Generate Risk Metrics]
-
-
-
-    M --> N[Decision Making]
-
-    N --> O[Model Improvement]
-
-
-
-    O --> B
-
-```
-
-
-
-## AI-Assisted Catastrophe Modeling
-
-
-
-Potential AI-assisted capabilities include:
-
-
-
-* Hazard detection
-
-* Event classification
-
-* Satellite-image interpretation
-
-* Exposure data enrichment
-
-* Property attribute estimation
-
-* Building classification
-
-* Vulnerability function discovery
-
-* Flood extent estimation
-
-* Wildfire spread prediction
-
-* Damage assessment
-
-* Claims anomaly detection
-
-* Event-loss estimation
-
-* Scenario generation
-
-* Model calibration assistance
-
-* Data-quality validation
-
-* Natural-language risk reporting
-
-* Portfolio risk summarization
-
-
-
-A recommended architecture is:
-
-
-
-**Hazard + Exposure Data → Scientific Model → AI Assistance → Risk Analyst Review**
-
-
-
-AI-generated outputs should remain subject to scientific validation and expert review, particularly for insurance pricing, capital allocation, regulatory reporting and high-impact resilience decisions.
-
-
-
-## Natural Catastrophe Risk KPIs
-
-
-
-Useful catastrophe modeling metrics include:
-
-
-
-* Average Annual Loss
-
-* Expected Annual Loss
-
-* Probable Maximum Loss
-
-* Return Period Loss
-
-* Value at Risk
-
-* Tail Value at Risk
-
-* Exposed Asset Value
-
-* Insured Value
-
-* Hazard Frequency
-
-* Hazard Severity
-
-* Event Loss
-
-* Portfolio Loss
-
-* Loss Ratio
-
-* Ground-Up Loss
-
-* Insured Loss
-
-* Reinsurance Recovery
-
-* Model Uncertainty
-
-* Exposure Data Completeness
-
-* Geocoding Accuracy
-
-* Vulnerability Coverage
-
-* Climate Scenario Sensitivity
-
-* Portfolio Concentration
-
-* Accumulation Risk
-
-* Regional Risk Concentration
-
-* Tail Risk
-
-* Model Runtime
-
-* Model Reproducibility
-
-
+**Frameworks for building custom systems**: Combine **Open Park Project** or a custom parking-management application as the operational core, use **OpenALPR or YOLO + PaddleOCR/EasyOCR** for license-plate recognition, store citation and permit data in **PostgreSQL + PostGIS**, build geographic dashboards with **QGIS + Leaflet/OpenLayers**, orchestrate citation and appeal workflows using **Camunda or Flowable**, connect cameras and sensors through **Node-RED + MQTT/Kafka**, and create analytics with **Apache Superset, Metabase, or Grafana**.
 
 ## How to Contribute
 
-
-
 1. Fork the repo.
-
-2. Add/edit entries in `README.md` following the existing format.
-
-3. Include: name, link, a 1–2 sentence description and whether it is SaaS/hosted or open-source.
-
-4. Clearly indicate whether an open-source project is a complete catastrophe modeling engine, hazard model, scientific framework, geospatial tool or supporting infrastructure.
-
-5. Prefer actively maintained projects with clear licenses, scientific documentation and reproducible methodologies.
-
-6. Submit a PR with a short explanation.
-
-
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit PR with a short explanation.
 
 Star the repo if you find it useful!
 
-
-
 ## Disclaimer
 
-
-
 * This is a **community-curated** list — not exhaustive and not an endorsement.
-
-* Natural catastrophe modeling involves substantial scientific, statistical and financial uncertainty.
-
-* Some open-source projects listed here are complete catastrophe or climate-risk frameworks, while others are specialized hazard, hydrological, geospatial or supporting components.
-
-* Commercial catastrophe models may include proprietary hazard catalogs, vulnerability functions, exposure databases and model calibrations that are not replicated by open-source alternatives.
-
-* Model results should not be interpreted as guaranteed predictions of future catastrophe losses.
-
-* Insurance pricing, underwriting, capital allocation and regulatory decisions should use appropriately validated models and qualified risk professionals.
-
-* Climate scenarios and catastrophe projections depend on assumptions, datasets, emissions pathways and model uncertainty.
-
-* Self-hosted systems require appropriate data governance, model validation, geospatial data quality controls, computational infrastructure and reproducibility practices.
-
-
+* Parking enforcement software must comply with applicable municipal regulations, privacy laws, vehicle-data regulations, payment rules, evidence requirements, and data-retention policies.
+* License-plate recognition and automated enforcement systems can produce false matches and should include appropriate human review, evidence validation, and appeal procedures.
+* Collection, storage, and processing of license-plate data, GPS data, photographs, and payment information require appropriate privacy, security, and access controls.
+* Self-hosted open-source systems require security hardening, audit logging, backups, mobile-device management, data retention controls, and regular updates.
+* Open-source components can provide strong building blocks, but fully integrated equivalents to enterprise parking-enforcement ecosystems may require substantial custom development and hardware integration.
 
 ---
 
+**Made for municipalities, universities, airports, hospitals, parking operators, mobility companies, smart-city teams, enforcement agencies, and developers.**
 
+Let's make parking enforcement more open, transparent, accurate, privacy-aware, and interoperable.
 
-**Made for insurers, reinsurers, catastrophe modelers, climate-risk analysts, actuaries, governments, infrastructure operators, researchers and developers building transparent risk intelligence.**
+[1]: https://civicsmart.com/?utm_source=chatgpt.com "CivicSmart — The Smart Parking Platform"
+[2]: https://www.t2systems.com/parking-enforcement-software/?utm_source=chatgpt.com "Parking Enforcement Software | Mobile & LPR | T2 Systems"
+[3]: https://www.passportinc.com/products/integrations?utm_source=chatgpt.com "Integrations - Passport"
+[4]: https://parkmobile.io/parking-providers/integrations?utm_source=chatgpt.com "Parking Technology Integrations | ParkMobile"
+[5]: https://operationscommander.com/?utm_source=chatgpt.com "Parking and Security Operations Platform | OperationsCommander"
+[6]: https://knogin.com/en/developers/parking-citation-management?utm_source=chatgpt.com "Parking Citation Management | Knogin Developers | Argus Command Center"
+[7]: https://openparkproject.github.io/OPP-wiki/?utm_source=chatgpt.com "Open Park Project Documentation"
+[8]: https://github.com/harytran0407/parking-management-system?utm_source=chatgpt.com "GitHub - harytran0407/parking-management-system: Parking management system with featuring ANPR (YOLOv8 + EasyOCR), real-time slot layout, advance booking, Quick Pay (VietQR/PayOS), and gate control. Built with ASP.NET Core 8/9, React, Python, and MySQL. · GitHub"
+[9]: https://github.com/jangirsamarth/parking-management-system-using-CV?utm_source=chatgpt.com "GitHub - jangirsamarth/parking-management-system-using-CV · GitHub"
+[10]: https://github.com/ak-junior3339/ParkX-Next-Generation-Smart-Parking-v2?utm_source=chatgpt.com "GitHub - ak-junior3339/ParkX-Next-Generation-Smart-Parking-v2: AI-powered smart parking system using a custom-trained YOLOv8 model + PaddleOCR for real-time license plate detection, recognition, and automated check-in/check-out — built with FastAPI. · GitHub"
+[11]: https://github.com/khushi-14/ParkEasy?utm_source=chatgpt.com "GitHub - khushi-14/ParkEasy: ParkEasy is an automated parking system which is based on the ANPR algorithm. · GitHub"
+[12]: https://github.com/KomatiBhavaniSankar/ANPR-ATCC-Infosys?utm_source=chatgpt.com "GitHub - KomatiBhavaniSankar/ANPR-ATCC-Infosys: Automatic Number Plate Recognition (ANPR) & Traffic Classification (ATCC) system using YOLOv10 and Tesseract OCR. Real-time vehicle detection, license plate extraction, and data storage in SQLite. Infosys Springboard Project. · GitHub"
 
-
-
-Let's make natural catastrophe modeling more **open, scientifically transparent, interoperable, reproducible and data-driven**.
