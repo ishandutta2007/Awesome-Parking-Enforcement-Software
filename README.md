@@ -24,47 +24,22 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-* **[Flowbird](https://www.flowbird.group/)**
-  Smart parking and mobility platform providing parking payments, meters, digital services, curb-management technologies, and enforcement-related integrations for cities and parking operators.
-
-* **[CivicSmart](https://civicsmart.com/)**
-  Connected curb-management and smart-parking platform combining meters, sensors, plate capture, mobile enforcement, citation workflows, and operational intelligence for municipalities. ([CivicSmart][1])
-
-* **[T2 Systems](https://www.t2systems.com/)**
-  Enterprise parking-management platform supporting mobile enforcement, LPR, permit validation, citation issuance, evidence capture, payments, appeals, collections, and analytics. ([T2 Systems][2])
-
-* **[Passport Parking](https://www.passportinc.com/)**
-  Digital parking and mobility platform providing parking payments, permits, enforcement technology, citation workflows, and integrations with parking meters and LPR systems. ([Passport][3])
-
-* **[ParkMobile](https://parkmobile.io/)**
-  Digital parking platform providing mobile payments and integrations with parking operators, meters, enforcement systems, and mobility technology providers. ([ParkMobile][4])
-
-* **[Flash Parking](https://www.flashparking.com/)**
-  Parking technology platform providing cloud-based parking access, revenue control, digital payments, license-plate recognition, and parking-operator management tools.
-
-* **[IPS Group](https://www.ipsgroupinc.com/)**
-  Smart parking technology provider offering connected parking meters, mobile payment infrastructure, sensors, enforcement integrations, and curbside management technologies.
-
-* **[Metric Parking](https://www.metricgroup.co.uk/)**
-  Parking technology provider delivering parking enforcement, permit management, payment, ANPR, mobile applications, and smart-city parking infrastructure.
-
-* **[Parkeon / Flowbird Technologies](https://www.flowbird.group/)**
-  Parking technology ecosystem providing parking meters, payment terminals, digital parking services, curb-management systems, and enforcement integrations.
-
-* **[Cale](https://www.cale.se/)**
-  Parking and mobility technology provider offering parking payment, permit, enforcement, mobile, and smart-parking infrastructure solutions.
-
-* **[OperationsCommander](https://operationscommander.com/)**
-  Parking and security operations platform connecting permits, violations, LPR, citation issuance, payments, evidence, incidents, and operational workflows through a shared system of record. ([OperationsCommander][5])
-
-* **[Argus Command Center](https://knogin.com/en/developers/parking-citation-management)**
-  Parking citation-management platform supporting mobile citation issuance, license-plate recognition, photographic evidence, appeals processing, payments, collections, permits, officer deployment, and analytics. ([Knogin][6])
-
-* **[Genetec AutoVu](https://www.genetec.com/)**
-  Enterprise automatic license-plate recognition platform used for parking enforcement, vehicle identification, permit validation, parking compliance, and security operations.
-
-* **[Parkeon Enforcement Ecosystem](https://www.flowbird.group/)**
-  Parking hardware and software technologies supporting the integration of meters, payment systems, enforcement operations, and municipal parking infrastructure.
+| Platform | Description | Starting Tier Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Flowbird](https://www.flowbird.group/)** | Smart parking and curb-management platform providing mobile payments, kiosk terminals, and enforcement integrations. | **Free consumer app** (operator convenience fee starting at **$0.20–$0.35/transaction**; Flowbird Pro starting at **€0.23/session**; kiosk hardware starting at **$7,000–$10,000/terminal** via RFP). | **Free-for-ever consumer app tier** (unlimited parking search and session setup; pay only parking/convenience fees). Enterprise/operator tier requires scheduled live demo (0-day self-serve trial). |
+| **[CivicSmart](https://civicsmart.com/)** ([CivicSmart][1]) | Connected curb-management and smart-parking platform combining meters, sensors, LPR capture, and mobile citation issuance. | **$275/unit** (smart meter head replacement hardware) + **$15–$45/meter/month** (cloud management and wireless telemetry via municipal procurement). | **No free tier**; 30-day pilot/proof-of-concept program available upon municipal qualification. |
+| **[T2 Systems](https://www.t2systems.com/)** ([T2 Systems][2]) | Enterprise parking-management platform supporting mobile enforcement, LPR, citation issuance, permit validation, and appeals. | **$120/officer/month** or **$500/month** base platform subscription + per-citation fees (~$0.15–$0.50/citation) depending on deployment scale. | **No free tier**; interactive live demo upon request (0-day self-serve trial). |
+| **[Passport Parking](https://www.passportinc.com/)** ([Passport][3]) | Digital parking and mobility operating system providing digital permits, enforcement workflows, and LPR integrations. | **$0.15–$0.35/transaction** convenience fee (mobile pay) or starting at **$250/month** base software licensing for municipal citation enforcement modules. | **Free-for-ever driver app** (unlimited vehicle registrations & session management); 14-day guided pilot available for municipal enforcement teams. |
+| **[ParkMobile](https://parkmobile.io/)** ([ParkMobile][4]) | Digital parking platform providing mobile payments, zone management, and enforcement integrations. | **$0.20–$0.65/transaction** (Standard pay-as-you-go) or **$3.99–$5.99/month** (ParkMobile Go zero-transaction-fee membership); fleet plans start at **$4.99/vehicle/month**. | **Free-for-ever Basic driver account** (up to 5 saved vehicles, unlimited parking transactions with standard per-session fee); enterprise operator pilot by demo request. |
+| **[Flash Parking](https://www.flashparking.com/)** | Cloud-born parking access, revenue control system (PARCS), LPR enforcement, and business intelligence platform. | **$250–$450/lane/month** under Hardware-as-a-Service (HaaS 36–72 month term) or **$150/month** cloud software license per location. | **No free tier**; 30-day managed sandbox environment provided upon enterprise qualification. |
+| **[IPS Group](https://www.ipsgroupinc.com/)** | Smart parking technology provider offering connected single-space meters, pay stations, sensors, and enforcement integrations. | **$275–$500/unit** (single-space smart meter) + **$18–$35/meter/month** SaaS data & management fee (Park Smarter back-office). | **Free-for-ever Park Smarter mobile driver app** (unlimited sessions, pay per parking rate); 0-day self-serve operator trial (live demo upon RFP inquiry). |
+| **[Metric Parking](https://www.metricgroup.co.uk/)** | Parking technology provider delivering pay-and-display terminals, ANPR, permit management, and enforcement infrastructure. | **£4,500–£8,500/terminal** (Universal pay station) + **£25–£50/terminal/month** cloud management and telemetry. | **No free tier**; scheduled operational demonstration upon inquiry (0-day self-serve trial). |
+| **[Parkeon / Flowbird Technologies](https://www.flowbird.group/)** | Parking technology ecosystem providing multi-space payment terminals, digital services, and enforcement systems. | **$8,000–$12,000/multi-space terminal** + **$35–$65/terminal/month** back-office SaaS management and cellular communications. | **No free tier**; scheduled on-site or virtual proof-of-concept for municipalities (0-day self-serve trial). |
+| **[Cale](https://www.cale.se/)** | Parking and mobility technology provider offering Cale WebOffice, solar pay terminals, and mobile enforcement integration. | **$35/terminal/month** (Cale WebOffice SaaS licensing) + hardware deployment costs (~$6,500+/terminal). | **No free tier**; 30-day operator sandbox access granted following vendor consultation. |
+| **[OperationsCommander](https://operationscommander.com/)** ([OperationsCommander][5]) | Parking and security operations platform connecting permits, violations, LPR, citation issuance, payments, and appeals. | **$150/month** (Standard starting tier, up to 500 active permits/citations) up to **$1,000/month** (Premium tier for high-volume operations). | **No free-for-ever tier**; 14-day guided sandbox demo trial available for parking administrators. |
+| **[Argus Command Center](https://knogin.com/en/developers/parking-citation-management)** ([Knogin][6]) | Parking citation-management platform supporting mobile citation issuance, LPR, evidence capture, appeals, and analytics. | **$99/month** (Argus Starter tier, up to 100 citations/month) or **$300/officer device/year** for mobile enforcement issuance. | **No free-for-ever tier**; 30-day free trial (up to 50 test citations and 2 officer mobile accounts). |
+| **[Genetec AutoVu](https://www.genetec.com/)** | Enterprise ALPR and enforcement platform for vehicle identification, permit validation, and parking compliance. | **$2,300–$2,500/unit** (AutoVu Cloudrunner CR-H2 camera hardware) + **$65–$120/camera/month** cloud ALPR subscription and Security Center licensing. | **No free-for-ever tier**; 45-day free trial for Genetec Cloud services / Genetec Clearance through certified channel partners. |
+| **[Parkeon Enforcement Ecosystem](https://www.flowbird.group/)** | Integrated enforcement hardware and software suite connecting handheld terminals, ANPR vehicles, and municipal back-offices. | **$75/handheld officer license/month** + **$10,000+** per vehicle-mounted ANPR enforcement kit. | **No free tier**; custom pilot deployment arranged for municipal tender evaluations (0-day self-serve trial). |
 
 ## Open-Source GitHub Projects
 
