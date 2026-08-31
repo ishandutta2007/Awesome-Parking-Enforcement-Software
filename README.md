@@ -76,7 +76,7 @@ Open-source building blocks including full-stack parking systems, ANPR/ALPR visi
 
 *(Ranked descending by GitHub Star count)*
 
-| Project | GitHub Stars | Focus / Category | Description |
+| Project | GitHub_Stars | Focus / Category | Description |
 | :--- | :--- | :--- | :--- |
 | **[OpenCV](https://github.com/opencv/opencv)** | [![Stars](https://img.shields.io/github/stars/opencv/opencv?style=social&color=white)](https://github.com/opencv/opencv/stargazers) | Computer Vision Core | Major open-source computer-vision framework used for vehicle detection, camera stream processing, parking-space monitoring, evidence capture, and ANPR pipelines. |
 | **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** | [![Stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=social&color=white)](https://github.com/PaddlePaddle/PaddleOCR/stargazers) | OCR & ANPR Engine | High-performance multi-lingual OCR framework supporting practical, ultra-lightweight license-plate character recognition and document extraction. |
